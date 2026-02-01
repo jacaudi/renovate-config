@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge preset - automatically merges patch updates after stability period",
+  "packageRules": [
+    {
+      "description": "Auto-merge patch updates after 3 day stability period",
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "automergeType": "pr",
+      "minimumReleaseAge": "3 days"
+    }
+  ]
+}
