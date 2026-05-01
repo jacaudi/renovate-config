@@ -15,10 +15,10 @@ Shareable Renovate presets for jacaudi repositories.
 
 | Preset | Description |
 |--------|-------------|
-| `base` | Base config with common settings and GitHub Actions grouping |
-| `go` | Go projects - runs `go mod tidy` |
+| `base` | Base config with common settings, `chore(deps):` commit prefix, and GitHub Actions grouping |
+| `go` | Go projects - runs `go mod tidy`, groups ginkgo/gomega and Go toolchain bumps, matches `go-version` inputs in reusable workflow calls |
 | `python` | Python - pins to n-1 version |
-| `kubernetes` | K8s operators - groups k8s.io packages |
+| `kubernetes` | K8s operators - groups `k8s.io/*` and `sigs.k8s.io/controller-runtime` |
 | `helm` | Helm charts - groups chart dependencies |
 | `automerge` | Auto-merge patch updates after 3 days |
 | `fork` | Enable processing on forked repos |

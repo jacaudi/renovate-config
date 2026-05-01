@@ -18,6 +18,8 @@
   ],
   "semanticCommitType": "chore",
   "semanticCommitScope": "deps",
+  "commitMessagePrefix": "chore(deps):",
+  "branchPrefix": "renovate/",
   "packageRules": [
     {
       "description": "Group all GitHub Actions updates",
