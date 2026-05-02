@@ -8,6 +8,6 @@ on:
 
 jobs:
   lint:
-    uses: jacaudi/github-actions/.github/workflows/component-lint.yml@v0.20.1
+    uses: jacaudi/github-actions/.github/workflows/component-lint.yml@v0.20.3
     with:
       json: true
